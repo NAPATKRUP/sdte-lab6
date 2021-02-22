@@ -31,7 +31,7 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          tags: DOCKER_IMAGE_REPO
+          tags: napatkrup/sdte_lab_6:latest
           push: truename: Check and build docker image on push main branch
 
 on:
