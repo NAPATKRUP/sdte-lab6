@@ -31,7 +31,7 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          tags: napatkrup/sdte_lab_6:latest
+          tags: "napatkrup/sdte_lab_6:latest"
           push: truename: Check and build docker image on push main branch
 
 on:
@@ -65,5 +65,5 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          tags: napatkrup/sdte_lab_6:latest
+          tags: "napatkrup/sdte_lab_6:latest"
           push: true
